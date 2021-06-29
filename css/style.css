@@ -1,0 +1,83 @@
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+.block{
+    width:200px;
+    height: 200px;
+    text-align:center;
+   border-radius: 15px;
+    padding: 50px;
+    float: left;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Arial;
+}
+.blue {
+    background-color: #000088;
+    color: #fff;
+    
+   
+
+}
+.violet {
+    background-color: #880088;
+    color: #fff;   
+}
+.red {
+    background-color: #880000;
+    color: #fff;
+}
+body {
+    background-image: url(davlat.jpg);
+    background-size: cover;
+}
+.logo{
+    width: 100px;
+   background-color:#fff;
+}
+.centerblock{
+    font-size: 10px;
+    font-weight: bold;
+    color:grey;
+    
+
+}
+.blue:hover{
+    background-color: #0000ff;
+   transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+.violet:hover{
+    background-color: #ff00ff;
+    transform:  scale(1.1);
+    transition: all 0.5s ease;
+}
+.red:hover{
+    background-color: #ff0000;
+   transform:  scale(1.1);
+    transition: all 0.5s ease;
+}
+@media screen and  (max-width: 600px ) and (min-width: 100px )
+{
+    .block{
+        height: 50px;
+        width: 560px;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .centerblock font {
+        display:none;
+    }
+   .centerblock img {
+       width: 50px;
+   }
+}
+ a{
+     text-decoration: none;
+     color:#fff;
+ }
+
+.block::before {
+    word-spacing: 20px;
+}
